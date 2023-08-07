@@ -1,0 +1,19 @@
+site_name: Laravel-LTE3
+theme:
+  name: material
+
+# Базовый адрес сайта
+site_url: https://www.mkdocs.org/
+
+# Описание сайта. Добавляется в meta в html-заголовке каждой страницы.
+site_description: Project documentation with Markdown.
+
+# Автор (или авторы) сайта. Добавляется в html-заголовок каждой страницы.
+site_author: MkDocs Team
+
+# Ссылка на репозиторий, в котором хранятся исходные материалы.
+repo_url: https://github.com/fomvasss/laravel-lte3/
+
+
+
+copyright: Copyright &copy; 2023 <a href="https://github.com/fomvasss">Fomvasss</a>.
