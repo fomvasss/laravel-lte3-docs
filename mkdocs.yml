@@ -1,19 +1,21 @@
-site_name: Laravel-LTE3
+site_name: Laravel LTE 3
 theme:
   name: material
+  features:
+    - navigation.expand
+
 
 # Базовый адрес сайта
-site_url: https://www.mkdocs.org/
+site_url: https://github.com/fomvasss/laravel-lte3/
 
 # Описание сайта. Добавляется в meta в html-заголовке каждой страницы.
-site_description: Project documentation with Markdown.
+site_description: Project documentation for package fomvasss/laravel-lte3.
 
 # Автор (или авторы) сайта. Добавляется в html-заголовок каждой страницы.
-site_author: MkDocs Team
+site_author: fomvasss
 
 # Ссылка на репозиторий, в котором хранятся исходные материалы.
 repo_url: https://github.com/fomvasss/laravel-lte3/
-
 
 
 copyright: Copyright &copy; 2023 <a href="https://github.com/fomvasss">Fomvasss</a>.

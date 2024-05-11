@@ -1,158 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://www.mkdocs.org/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/about/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/installation/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/installation/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/other/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/other/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/resources/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/quick-start/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/btnReset/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/resources/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/btnSubmit/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/btnReset/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/checkbox/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/btnSubmit/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/colorpicker/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/checkbox/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/datepicker/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/colorpicker/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/datetimepicker/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/datepicker/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/file/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/datetimepicker/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/fileForm/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/file/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/form/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/fileForm/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/hidden/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/form/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/lfmFile/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/hidden/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/lfmImage/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/links/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/links/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/lists/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/lists/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/mediaFile/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/mediaFile/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/nestedset/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/nestedset/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/pagination/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/pagination/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/radiogroup/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/radiogroup/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/range/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/range/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/select2/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/select2/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/select2Tree/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/select2Tree/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/slug/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/slug/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/text/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/text/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/textarea/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/textarea/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/timepicker/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/timepicker/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/treeview/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/treeview/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mkdocs.org/components/xEditable/</loc>
-         <lastmod>2023-08-04</lastmod>
+         <loc>https://github.com/fomvasss/laravel-lte3/components/xEditable/</loc>
+         <lastmod>2024-05-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

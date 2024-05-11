@@ -1,17 +1,48 @@
 # Installation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Run:
 
-## Commands
+```bash
+composer require fomvasss/laravel-lte3
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+composer require almasaeed2010/adminlte
 
-## Project layout
+php artisan vendor:publish --tag=lte3-config
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+php artisan lte3:install
+```
+
+That's all. You can usage LTE3 in your project :)
+
+
+All examples of fields and components can be viewed: `http://site.test/lte3/exsmples` (`.../examples/components.vlade.php`)
+
+# Configuration
+
+Configuration file: `config/lte3.php`
+
+For correct work navigation in dashboard, apply middleware. Add this to `App\Http\Kernel.php`:
+
+```
+$middlewareGroups = [
+  'web' => [
+    //...
+    \Fomvasss\Lte3\Http\Middleware\LteRequestOptions::class,
+  ],
+];
+```
+
+## Structure
+
+    configs
+        lte3.php
+    public/
+        vendor/
+            lte3/       # assets for laravel-lte3
+            adminlte/   # assets for https://adminlte.io
+    resources/
+        views/
+            admin/
+                auth/
+                examples/
+                layouts/

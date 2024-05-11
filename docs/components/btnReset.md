@@ -1,5 +1,5 @@
 # btnReset
 
 ```
-{!! Lte3::btnReset('Вийти') !!}
+{!! Lte3::btnReset('Cancel') !!}
 ```
