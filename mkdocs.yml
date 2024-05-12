@@ -1,8 +1,49 @@
 site_name: Laravel LTE 3
 theme:
   name: material
+  icon:
+    repo: fontawesome/brands/github
   features:
     - navigation.expand
+
+nav:
+  - Get Started:
+    - Introduction: 'index.md'
+    - installation.md
+    - Basic usage: 'usage.md'
+  - Components: 
+    - components/btnModalClose.md
+    - components/btnReset.md
+    - components/btnSubmit.md
+    - components/checkbox.md
+    - components/colorpicker.md
+    - components/datepicker.md
+    - components/datetimepicker.md
+    - components/file.md
+    - components/fileForm.md
+    - components/form.md
+    - components/hidden.md
+    - components/lfmFile.md
+    - components/lfmImage.md
+    - components/links.md
+    - components/lists.md
+    - components/mediaFile.md
+    - components/nestedset.md
+    - components/pagination.md
+    - components/radiogroup.md
+    - components/range.md
+    - components/select2.md
+    - components/select2Tree.md
+    - components/slug.md
+    - components/text.md
+    - components/textarea.md
+    - components/timepicker.md
+    - components/treeview.md
+    - components/xEditable.md
+  - Other:
+      - other/a.md
+      - other/b.md
+  - resources.md
 
 
 # Базовый адрес сайта
@@ -14,8 +55,9 @@ site_description: Project documentation for package fomvasss/laravel-lte3.
 # Автор (или авторы) сайта. Добавляется в html-заголовок каждой страницы.
 site_author: fomvasss
 
+repo_name: fomvasss/laravel-lte3
 # Ссылка на репозиторий, в котором хранятся исходные материалы.
 repo_url: https://github.com/fomvasss/laravel-lte3/
 
 
-copyright: Copyright &copy; 2023 <a href="https://github.com/fomvasss">Fomvasss</a>.
+copyright: Copyright &copy; 2024 <a href="https://github.com/fomvasss">Fomvasss</a>.
