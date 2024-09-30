@@ -19,6 +19,7 @@ nav:
     - components/colorpicker.md
     - components/datepicker.md
     - components/datetimepicker.md
+    - components/field.md
     - components/file.md
     - components/fileForm.md
     - components/form.md
