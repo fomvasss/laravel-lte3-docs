@@ -28,4 +28,17 @@ $fieldUserEmail = ['type' => 'email', 'name' => 'email', 'label' => 'Enter Email
     'label' => 'Gender',
     'data' => ['tt' => 'yy']
 ]) !!}
+
+
+{!! Lte3::field([
+    'data_type' => 'text',
+    'type' => 'xEditable',
+    'name' => 'comment',
+    'pk' => 123,
+    'url_save' => route('admin.items.editable', $item),
+    'label' => '',
+    'value' => 'Hello World!',
+    'value_title' => 'Hello World!',
+]) !!}
+
 ```
