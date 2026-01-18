@@ -1,0 +1,18 @@
+{
+  "name": "laravel-lte3-docs",
+  "version": "1.0.0",
+  "description": "Documentation for fomvasss/laravel-lte3 package",
+  "homepage": "https://fomvasss.github.io/laravel-lte3-docs/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fomvasss/laravel-lte3-docs.git"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  }
+}
