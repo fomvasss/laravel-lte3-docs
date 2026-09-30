@@ -14,7 +14,8 @@ Props (з blade):
 - `label` (string)
 - `class` (string) — CSS-клас для textarea (наприклад `f-tinymce`, `f-summernote`, `f-codeMirror`)
 - `hidden_wrap`, `disabled`, `readonly`
-- `tokens` (array)
+- `tokens` (array) — список токенів `[токен => назва]` у dropdown справа в полі
+- `tokens_action` (string) — `copy` (за замовчуванням), `insert` (вставити в позицію курсора; для TinyMCE — в редактор), `none`
 - `help` (string)
 
 Приклади (з `examples/components.blade.php`):

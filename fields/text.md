@@ -17,7 +17,8 @@ Props (витягнуто з `resources/views/vendor/lte3/components/text.blade.
 - `checkbox` (array) — опціональний чекбокс у гріді (`name`, `title`, `value`, `readonly`, `disabled`)
 - `hidden_wrap` (bool) — приховати wrapper
 - `help` (string) — допоміжний текст
-- `tokens` (array) — список замінників для dropdown копіювання
+- `tokens` (array) — список токенів `[токен => назва]` у dropdown справа в полі
+- `tokens_action` (string) — що робить клік по токену: `copy` (за замовчуванням, копіює в буфер), `insert` (вставляє в поле в позицію курсора), `none` (лише список)
 
 Приклади використання (з `resources/views/admin/examples/components.blade.php`):
 
