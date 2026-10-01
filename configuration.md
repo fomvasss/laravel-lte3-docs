@@ -15,6 +15,7 @@ View (array):
 - `dark_mode` (bool) — темна тема. Default: `false`
 - `preloader` (bool) — показувати прелоадер. Default: `false`
 - `alerts` (array) — перелік типів alert'ів (наприклад `toastr`).
+  Блок `lte3::parts.alerts.bootstrap` можна підключити й окремо, у потрібному місці сторінки, напр. лише помилки й попередження над формою: `@include('lte3::parts.alerts.bootstrap', ['types' => ['warning', 'error'], 'class' => ''])`. `types` — які flash-повідомлення показувати (default: `success`, `info`, `warning`, `error`; `error` охоплює й `danger` та помилки валідації), `class` — клас обгортки (default: `container-fluid p-2`).
 - `sidebar.search` (bool) — показувати пошук у сайдбарі. Default: `true`
 - `sidebar.auth` (bool) — показувати auth-блок у сайдбарі. Default: `false`
 
