@@ -71,6 +71,17 @@ protected $middlewareGroups = [
 - `public/vendor/lte3` — кастомні assets пакета
 - `resources/views/vendor/lte3` — опубліковані view (за потреби)
 
+## Кеш асетів після оновлення
+
+Layout пакета підключає `main.js`, `main.css`, `mb-blocks.js`, `mb-block.css` через хелпер `lte3_asset()` — URL з `?v=<час зміни файлу>`, тож після `composer update` (чи перепублікації асетів) браузер бере нові файли, а не закешовані.
+
+Якщо layout скопійовано в проєкт (`lte3-view-layouts` чи власна копія `begin`/`end`), підключайте так само, замість `/vendor/lte3/main.js` чи ручного `?v=...`:
+
+```blade
+<link rel="stylesheet" href="{{ lte3_asset('main.css') }}">
+<script src="{{ lte3_asset('main.js') }}"></script>
+```
+
 ## Посилання
 
 - Репозиторій на GitHub: https://github.com/fomvasss/laravel-lte3/
