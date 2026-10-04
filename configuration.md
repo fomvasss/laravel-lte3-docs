@@ -177,7 +177,8 @@ Field attributes:
 - `modal_key` (string) — `_modal` за замовчуванням
 - `pagination` — масив з `simple_view` та `view` для пагінації
 - `media.format` (string) — формат полів `mediaFile`/`mediaImage`: `legacy` (за замовчуванням, як до 1.121) або `expand` (властивості й порядок нових файлів, головний файл); атрибут поля `format` перебиває. Див. [поле mediaFile](fields/mediaFile.md)
-- `media.thumb` — резолвер мініатюр поля: `driver` (`conversion` | `imagepreset` | callable), `conversion_name`, `imagepreset_params`
+- `media.thumb_size` (int) — мінімальна ширина плитки картинки в px у полях `mediaImage` / `lfmImage` (атрибут `thumb_size` перебиває), 110
+- `media.thumb` — резолвер мініатюр поля: `driver` (`conversion` | `imagepreset` | callable), `conversion_name`, `imagepreset_params`; для `imagepreset` розмір — 2× `thumb_size`
 
 Приклади використання:
 

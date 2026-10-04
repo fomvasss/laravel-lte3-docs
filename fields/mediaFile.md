@@ -14,6 +14,7 @@ Props:
 - `collection` (string) — колекція, якщо відрізняється від `name`
 - `multiple` (bool) — кілька файлів; без нього одиночне поле: новий файл замінює наявний
 - `is_image` (bool) — сітка мініатюр
+- `thumb_size` (int) — мінімальна ширина плитки сітки в px; за замовчуванням `lte3.view.media.thumb_size` (110). Мініатюра `imagepreset` генерується вдвічі більшою
 - `accept` (string) — як у `<input type=file>`; під зоною виводиться людською мовою: `image/*,.pdf` → «Allowed: Images, PDF». Файли інших типів у поле не додаються (і при перетягуванні)
 - `custom_properties` (array) — властивості файлу, див. нижче
 - `format` (string) — `legacy` | `expand`, див. нижче. За замовчуванням `lte3.view.media.format` (`legacy`)
@@ -84,7 +85,7 @@ use Illuminate\Validation\Rule;
 
 ## Мініатюри
 
-Резолвер прев'ю — `lte3.view.media.thumb` (`conversion` | `imagepreset` | callable), див. [configuration](../configuration.md). З драйвером `imagepreset` (пакет `fomvasss/laravel-imagepresets`) розмір 100×100 має бути дозволений: увімкніть `imagepresets.trusted_bypass` (підписаний `_t`, HMAC з `APP_KEY`) або додайте `[100, 100]` в `allowed_sizes` — інакше мініатюри віддають 404.
+Резолвер прев'ю — `lte3.view.media.thumb` (`conversion` | `imagepreset` | callable `fn (Media $media, ?int $size): string`), див. [configuration](../configuration.md). З `conversion`, поки конверсію не згенеровано (черга), показується оригінал. З `imagepreset` розмір мініатюри — 2× `thumb_size`, тож її не треба вирівнювати з розміром плитки. З драйвером `imagepreset` (пакет `fomvasss/laravel-imagepresets`) розмір 100×100 має бути дозволений: увімкніть `imagepresets.trusted_bypass` (підписаний `_t`, HMAC з `APP_KEY`) або додайте `[100, 100]` в `allowed_sizes` — інакше мініатюри віддають 404.
 
 ## JS
 
@@ -103,6 +104,7 @@ use Illuminate\Validation\Rule;
     "or drag them here": "або перетягніть сюди",
     "Images only": "Лише зображення",
     "Allowed: :types": "Дозволено: :types",
+    "Not allowed: :files.": "Не підходить: :files.",
     "Images": "Зображення",
     "Video": "Відео",
     "Audio": "Аудіо",
@@ -116,7 +118,6 @@ use Illuminate\Validation\Rule;
     "Main": "Головне",
     "Drag to reorder": "Перетягніть, щоб змінити порядок",
     "Will be deleted": "Буде видалено",
-    "Will be replaced": "Буде замінено",
     "No alt": "Немає alt",
     "Cancel": "Скасувати",
     "Done": "Готово"
