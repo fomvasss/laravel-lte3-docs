@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Laravel LTE3 docs have moved</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://fomvasss.github.io/laravel-lte3/">
+<script>
+(function () {
+    var target = 'https://fomvasss.github.io/laravel-lte3/';
+    var map = {
+        'options': 'usage/editors',
+        'js-api': 'reference/javascript',
+        'fields/field': 'reference/facade',
+        'fields/email': 'fields/text',
+        'fields/number': 'fields/text',
+        'fields/password': 'fields/text',
+        'fields/search': 'fields/text',
+        'fields/secret': 'fields/text',
+        'fields/url': 'fields/text',
+        'fields/datepicker': 'fields/datetime',
+        'fields/timepicker': 'fields/datetime',
+        'fields/datetimepicker': 'fields/datetime',
+        'fields/btnsubmit': 'fields/buttons',
+        'fields/btnreset': 'fields/buttons',
+        'fields/btnmodalclose': 'fields/buttons'
+    };
+    var path = location.pathname.replace(/^\/laravel-lte3-docs\/?/, '').replace(/(\/index)?\.html$/, '').replace(/^index$/, '').replace(/\/$/, '').toLowerCase();
+    path = map[path] || path;
+    location.replace(target + (path ? path + '/' : '') + location.hash);
+})();
+</script>
+<meta http-equiv="refresh" content="1; url=https://fomvasss.github.io/laravel-lte3/">
+</head>
+<body>
+<p>The documentation has moved to <a href="https://fomvasss.github.io/laravel-lte3/">fomvasss.github.io/laravel-lte3</a>.</p>
+</body>
+</html>
